@@ -10,9 +10,9 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/go-chi/chi"
-	"github.com/timc4662/hackernews/graph"
-	"github.com/timc4662/hackernews/graph/generated"
-	"github.com/timc4662/hackernews/internal/auth"
+	"github.com/timc4662/go_graphql/graph"
+	"github.com/timc4662/go_graphql/graph/generated"
+	"github.com/timc4662/go_graphql/internal/auth"
 )
 
 const defaultPort = "8080"

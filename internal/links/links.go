@@ -4,7 +4,7 @@ import (
 	"internal/database"
 	"log"
 
-	"github.com/timc4662/hackernews/internal/users"
+	"github.com/timc4662/go_graphql/internal/users"
 )
 
 type Link struct {

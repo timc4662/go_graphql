@@ -1,4 +1,4 @@
-module github.com/timc4662/hackernews
+module github.com/timc4662/go_graphql
 
 go 1.17
 

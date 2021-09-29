@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/timc4662/hackernews/graph/generated"
-	"github.com/timc4662/hackernews/graph/model"
-	"github.com/timc4662/hackernews/internal/auth"
-	"github.com/timc4662/hackernews/internal/links"
-	"github.com/timc4662/hackernews/internal/users"
-	"github.com/timc4662/hackernews/pkg/jwt"
+	"github.com/timc4662/go_graphql/graph/generated"
+	"github.com/timc4662/go_graphql/graph/model"
+	"github.com/timc4662/go_graphql/internal/auth"
+	"github.com/timc4662/go_graphql/internal/links"
+	"github.com/timc4662/go_graphql/internal/users"
+	"github.com/timc4662/go_graphql/pkg/jwt"
 )
 
 func (r *mutationResolver) CreateLink(ctx context.Context, input model.NewLink) (*model.Link, error) {
